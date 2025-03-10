@@ -95,11 +95,11 @@ The project includes multiple visualizations, such as:
 ### Model Selection
 Three unsupervised machine learning models were trained for clustering the dataset:
 
-1-K-Means
+1-The K-Means model with k=3 resulted in a higher silhouette score of 0.5110, suggesting clearer and more distinct clusters, including The Reliable Basics, The Hidden Gems, and The Crowd Favorites.
 
-2-K-Modes
+2-The K-Modes model achieved a silhouette score of 0.3486 for 4 clusters, with each cluster focusing on different learning approaches, such as Specialized Skills, Quick Learning, Career Growth, and Comprehensive Programs
 
-3-DBSCAN
+3-The DBSCAN model identified 4 clusters with a filtered silhouette score of 0.4477, suggesting moderate cluster separation and meaningful groupings.
 
 These models were chosen to handle both numerical and categorical data effectively and to explore different clustering approaches.
 
@@ -121,4 +121,3 @@ Tuning was performed to improve model accuracy and efficiency.
 - **Emtnan Alomireni**
 - **Naser Almanaa**
 - **Yousef Alharbi**
-
